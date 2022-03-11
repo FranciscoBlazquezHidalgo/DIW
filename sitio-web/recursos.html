@@ -1,0 +1,44 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo/estilo.css" type="text/css">
+  <title>Recursos</title>
+</head>
+<body lang="es">
+  <h1>Figura SVG</h1>
+  <svg width="100" height="100">
+    <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    <line x1="0" y1="0" x2="100" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+    <line x1="0" y1="100" x2="100" y2="0" style="stroke:rgb(255, 0, 0);stroke-width:2" />
+  </svg>
+  <h1>Filtros</h1>
+  <div id="galeria">
+    <img class="gris"  src="imagenes/gato.jpg" alt="Gris" />
+    <img class="desenfoque"  src="imagenes/gato.jpg" alt="Desenfoque">
+    <img class="viejo" src="imagenes/gato.jpg" alt="Viejo">
+    <img class="satur"  src="imagenes/gato.jpg" alt="Saturado">
+    <img class="opa"  src="imagenes/gato.jpg" alt="Opaco">
+    <img class="brillo"  src="imagenes/gato.jpg" alt="Brillo">
+    <img class="contraste"  src="imagenes/gato.jpg" alt="Contraste">
+    <img class="rotac"  src="imagenes/gato.jpg" alt="Rotación de colores">
+    <img class="invertido"  src="imagenes/gato.jpg" alt="Invertido">
+    <img class="sombraenpng"  src="imagenes/gato.jpg" alt="Sombra">
+  </div>
+  <h1>Audio</h1>
+  <audio controls>
+    <source src="audio/musica-stock.mp3" type="audio/mp3">
+  </audio>
+  <h1>Video</h1>
+  <video loop autoplay muted controls>
+    <source src="videos/intro.mp4" type="video/mp4">
+</video>
+<h1>Transiciones</h1>
+<div class="boxTS1">linear</div>
+<div class="boxTS2">ease</div>
+<div class="boxTS3">ease-in</div>
+<div class="boxTS4">ease-out</div>
+<div class="boxTS5">ease-in-out</div>
+</body>
+</html>
